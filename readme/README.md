@@ -12,8 +12,8 @@ GoodTool makes system monitoring easier than **ever before** and is available fo
 
 ## Download
 
-- Version [1.0] [2]
-- Version [0.9] [1]
+- Version [1.0][2]
+- Version [0.9][1]
 - Version [0.8](http://nequissimus.github.com/goodtool/0_8.zip "Link to 0.8")
 
 ## Installation
@@ -30,13 +30,13 @@ GoodTool makes system monitoring easier than **ever before** and is available fo
 
 ### Access to API factory (Java)
 
-Get the API factory: `GoodTool api = GoodTool.getAPI()`
+Get the API factory: `GoodTool api = GoodTool.getAPI();`
 
 ### Usage of API factory (Java)
 
 Set monitoring of only one CPU thread:
-    GoodTool api = GoodTool.getAPI()
-    api.setMonitoredThreads(1)
+    GoodTool api = GoodTool.getAPI();
+    api.setMonitoredThreads(1);
 
 ## Contact
 
