@@ -7,6 +7,28 @@ if [ "$(which bluecloth)" == "" ]; then
 	exit 1
 fi
 
+# Define builder function
+
+build () {
+
+if [ "$#" != 3 ]
+then
+  echo "Need 3 parameters, had $#! - $1 = Markdown file, $2 = HTML file, $3 = Error message"
+else
+  if [ -e $1 ]
+  then
+    if [ -e $2 ]
+    then
+      rm $2
+    fi
+    bluecloth $1 >> $2
+  else
+    echo $3
+  fi
+fi
+
+}
+
 # Variables
 
 ## Working directory
@@ -24,28 +46,19 @@ INPUT_INSTRUCTIONS=$DIR_INSTRUCTIONS"done.md"
 OUTPUT_INSTRUCTIONS=$DIR_INSTRUCTIONS"done.html"
 ERROR_INSTRUCTIONS="Instructions example not found - not built!"
 
+## Path to HTML/CSS examples
+DIR_HTMLCSS=$DIR"/html_css/"
+INPUT_HTMLCSS=$DIR_HTMLCSS"add_css.md"
+OUTPUT_HTMLCSS=$DIR_HTMLCSS"add_css.html"
+ERROR_HTMLCSS="CSS examples not found - not built!"
+
 # Build 
 
 ## Readme
-if [ -e $INPUT_README ]
-then
-  if [ -e $OUTPUT_README ]
-  then
-    rm $OUTPUT_README
-  fi
-  bluecloth $INPUT_README >> $OUTPUT_README
-else
-  echo $ERROR_README
-fi
+build "$INPUT_README" "$OUTPUT_README" "$ERROR_README"
 
 ## Instructions
-if [ -e $INPUT_INSTRUCTIONS ]
-then
-  if [ -e $OUTPUT_INSTRUCTIONS ]
-  then
-  	rm $OUTPUT_INSTRUCTIONS
-  fi
-  bluecloth $INPUT_INSTRUCTIONS >> $OUTPUT_INSTRUCTIONS
-else
-  echo $ERROR_INSTRUCTIONS
-fi
+build "$INPUT_INSTRUCTIONS" "$OUTPUT_INSTRUCTIONS" "$ERROR_INSTRUCTIONS"
+
+## HTML/CSS examples
+build "$INPUT_HTMLCSS" "$OUTPUT_HTMLCSS" "$ERROR_HTMLCSS"
