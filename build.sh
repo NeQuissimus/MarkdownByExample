@@ -48,9 +48,11 @@ ERROR_INSTRUCTIONS="Instructions example not found - not built!"
 
 ## Path to HTML/CSS examples
 DIR_HTMLCSS=$DIR"/html_css/"
-INPUT_HTMLCSS=$DIR_HTMLCSS"add_css.md"
-OUTPUT_HTMLCSS=$DIR_HTMLCSS"add_css.html"
-ERROR_HTMLCSS="CSS examples not found - not built!"
+INPUT_HTMLCSS_1=$DIR_HTMLCSS"add_css.md"
+OUTPUT_HTMLCSS_1=$DIR_HTMLCSS"add_css.html"
+INPUT_HTMLCSS_2=$DIR_HTMLCSS"link_anchors.md"
+OUTPUT_HTMLCSS_2=$DIR_HTMLCSS"link_anchors.html"
+ERROR_HTMLCSS="HTML/CSS example not found - not built!"
 
 # Build 
 
@@ -61,4 +63,5 @@ build "$INPUT_README" "$OUTPUT_README" "$ERROR_README"
 build "$INPUT_INSTRUCTIONS" "$OUTPUT_INSTRUCTIONS" "$ERROR_INSTRUCTIONS"
 
 ## HTML/CSS examples
-build "$INPUT_HTMLCSS" "$OUTPUT_HTMLCSS" "$ERROR_HTMLCSS"
+build "$INPUT_HTMLCSS_1" "$OUTPUT_HTMLCSS_1" "$ERROR_HTMLCSS"
+build "$INPUT_HTMLCSS_2" "$OUTPUT_HTMLCSS_2" "$ERROR_HTMLCSS"
