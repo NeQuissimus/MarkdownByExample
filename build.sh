@@ -11,21 +11,34 @@ fi
 
 build () {
 
-if [ "$#" != 3 ]
+if [ "$#" != 2 ]
 then
-  echo "Need 3 parameters, had $#! - $1 = Markdown file, $2 = HTML file, $3 = Error message"
+  echo "Need 2 parameters, had $#! - 1 = Directory, 2 = File name"
 else
-  if [ -e $1 ]
+  MARKDOWN=$1$2$EXT_MD
+  HTML=$1$2$EXT_HTML
+  if [ -e $MARKDOWN ]
   then
-    if [ -e $2 ]
+    if [ -e $HTML ]
     then
-      rm $2
+      rm $HTML
     fi
-    bluecloth $1 >> $2
+    bluecloth $MARKDOWN >> $HTML
   else
-    echo $3
+    error $MARKDOWN
   fi
 fi
+
+}
+
+error () {
+
+  if [ "$#" != 1 ]
+  then
+    echo "Need 1 parameter, had $#! - 1 = File name"
+  else
+    echo $1$ERROR
+  fi
 
 }
 
@@ -34,34 +47,34 @@ fi
 ## Working directory
 DIR=$( cd "$( dirname "$0" )" && pwd )
 
+## File extensions
+EXT_MD=".md"
+EXT_HTML=".html"
+
+## Error message
+ERROR=" not found - not built!"
+
 ## Path to readme
 DIR_README=$DIR"/readme/"
-INPUT_README=$DIR_README"README.md"
-OUTPUT_README=$DIR_README"README.html"
-ERROR_README="Readme example not found - not built!"
+FILE_README="README"
 
 ## Path to instructions
 DIR_INSTRUCTIONS=$DIR"/instructions/"
-INPUT_INSTRUCTIONS=$DIR_INSTRUCTIONS"done.md"
-OUTPUT_INSTRUCTIONS=$DIR_INSTRUCTIONS"done.html"
-ERROR_INSTRUCTIONS="Instructions example not found - not built!"
+FILE_INSTRUCTIONS="done"
 
 ## Path to HTML/CSS examples
 DIR_HTMLCSS=$DIR"/html_css/"
-INPUT_HTMLCSS_1=$DIR_HTMLCSS"add_css.md"
-OUTPUT_HTMLCSS_1=$DIR_HTMLCSS"add_css.html"
-INPUT_HTMLCSS_2=$DIR_HTMLCSS"link_anchors.md"
-OUTPUT_HTMLCSS_2=$DIR_HTMLCSS"link_anchors.html"
-ERROR_HTMLCSS="HTML/CSS example not found - not built!"
+FILE_HTMLCSS_1="add_css"
+FILE_HTMLCSS_2="link_anchors"
 
 # Build 
 
 ## Readme
-build "$INPUT_README" "$OUTPUT_README" "$ERROR_README"
+build "$DIR_README" "$FILE_README"
 
 ## Instructions
-build "$INPUT_INSTRUCTIONS" "$OUTPUT_INSTRUCTIONS" "$ERROR_INSTRUCTIONS"
+build "$DIR_INSTRUCTIONS" "$FILE_INSTRUCTIONS"
 
 ## HTML/CSS examples
-build "$INPUT_HTMLCSS_1" "$OUTPUT_HTMLCSS_1" "$ERROR_HTMLCSS"
-build "$INPUT_HTMLCSS_2" "$OUTPUT_HTMLCSS_2" "$ERROR_HTMLCSS"
+build "$DIR_HTMLCSS" "$FILE_HTMLCSS_1"
+build "$DIR_HTMLCSS" "$FILE_HTMLCSS_2"
