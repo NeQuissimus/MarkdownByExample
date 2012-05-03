@@ -31,6 +31,8 @@ fi
 
 }
 
+# Define error handler
+
 error () {
 
   if [ "$#" != 1 ]
