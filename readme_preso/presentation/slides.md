@@ -2,7 +2,7 @@
 
 # GoodTool
 
-!SLIDE
+!SLIDE WhatIsGoodTool
 
 ## What is GoodTool?
 
@@ -43,6 +43,7 @@ Get the API factory: `GoodTool api = GoodTool.getAPI();`
 ### Usage of API factory (Java)
 
 Set monitoring of only one CPU thread:
+
     GoodTool api = GoodTool.getAPI();
     api.setMonitoredThreads(1);
 
@@ -51,3 +52,10 @@ Set monitoring of only one CPU thread:
 ## Contact
 
 Go to our website <http://nequissimus.com/> or email to <steinbach.tim@googlemail.com>
+
+<script>
+$(".WhatIsGoodTool").bind("showoff:show", function (event) {
+  var flash = $(event.target).find("strong");
+  flash.delay(500).fadeOut(1000).fadeIn(1000).fadeOut(1000).fadeIn(1000);
+});
+</script>
