@@ -1,0 +1,8 @@
+{ 
+  "name": "German kale", 
+  "description": "Yummy recipe from the Old World",
+  "sections": 
+    [ 
+      {"section":"slides"} 
+    ]
+}
