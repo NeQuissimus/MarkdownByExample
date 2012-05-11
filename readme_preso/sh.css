@@ -1,0 +1,7 @@
+/*
+Example CSS style sheet for shjs.
+A full overview of classes used can be found in the library's documentation
+at http://shjs.sourceforge.net/doc/documentation.html
+and the example file found at http://shjs.sourceforge.net/sh_style.css
+*/
+pre.sh_sourceCode .sh_usertype { color: red; }

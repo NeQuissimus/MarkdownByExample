@@ -24,11 +24,11 @@ GoodTool makes system monitoring easier than **ever before** and is available fo
 2. Execute .exe or .sh file
 3. Follow screen instructions
 
-!SLIDE center
+!SLIDE center transition=slide
 
 ![GUI Screenshot](GoodToolGui.png "Screenshot")
 
-!SLIDE
+!SLIDE transition=zoom
 
 ## API examples
 
@@ -44,6 +44,7 @@ Get the API factory: `GoodTool api = GoodTool.getAPI();`
 
 Set monitoring of only one CPU thread:
 
+    @@@ java
     GoodTool api = GoodTool.getAPI();
     api.setMonitoredThreads(1);
 
@@ -59,3 +60,4 @@ $(".WhatIsGoodTool").bind("showoff:show", function (event) {
   flash.delay(500).fadeOut(1000).fadeIn(1000).fadeOut(1000).fadeIn(1000);
 });
 </script>
+<link rel="stylesheet" type="text/css" media="screen" href="./sh.css">
