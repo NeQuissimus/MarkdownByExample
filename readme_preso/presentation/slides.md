@@ -48,6 +48,15 @@ Set monitoring of only one CPU thread:
     GoodTool api = GoodTool.getAPI();
     api.setMonitoredThreads(1);
 
+!SLIDE commandline incremental
+
+## Commandline interface
+
+    $ goodtool start
+    GoodTool 1.0 has been started
+    $ goodtool stop
+    GoodTool 1.0 has been shut down
+
 !SLIDE
 
 ## Contact
