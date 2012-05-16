@@ -1,6 +1,16 @@
-!SLIDE 
+!SLIDE weatherSlide
 # German kale
 ## Yummy recipe from the Old World
+(Where it is now <span id="temperature"></span>ºC)
+
+<script src="./weather.js"></script>
+<script>
+$(".weatherSlide").bind("showoff:show", function (event) {
+    $.getJSON(url, function(data) {
+       $("#temperature").html(data.query.results.channel.item.condition.temp);
+    });
+});
+</script>
 
 !SLIDE bullets incremental transition=fade
 # Ingredients
