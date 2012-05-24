@@ -1,3 +1,4 @@
-*.html
+/*/*.html
 *.pdf
 .DS_Store
+*/_site/*
