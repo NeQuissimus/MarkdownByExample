@@ -1,0 +1,133 @@
+/******************************************************
+    
+    H1: Chapter number
+    H2: Chapter name
+    H3: Minor headlines that are not chapters
+    H4: Red text for warning or attention
+    H5: Use ##### &nbsp; for page break
+    H6: Figure titles
+
+******************************************************/
+
+/* General */
+
+@page {
+    size: 5.5in 8.5in; 
+    margin-left: 0.375in;
+    margin-right: 0.375in;
+    margin-top: 0.25in;
+    margin-bottom: 0.25in;
+}
+
+body {
+    color: #000;
+    font-family: Book Antiqua; 
+    font-size: 12pt;
+    text-align: justify; 
+}
+
+/* Red text for Warning or Attention */
+h4 {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+/* Page break hack (use ##### &nbsp;)*/
+h5 {
+    page-break-after: always;
+}
+
+/* Horizontal rules */
+hr {
+    border: 0 none;
+    border-top: dotted 1px #000000;
+}
+
+/* Images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footnotes */
+a { 
+    color: #000; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:after {
+    content: "\207A";    
+}
+
+/* Beginning of chapter */
+h1 { 
+    color: #CCC; 
+    font-size: 48pt; 
+    margin-right: 30px;
+    padding-top: 200px;  
+    page-break-before: right;
+    text-align: right; 
+    text-decoration: underline; 
+}
+h2 { 
+    font-family: Anonymous Pro, monospace; 
+    font-size: 10pt; 
+    margin-bottom: 80px; 
+    margin-right: 40px; 
+    margin-top: -45px; 
+    text-align: right; 
+}
+h3 { /* Minor headlines that are not chapters, e.g. "About the author", "Footnotes"... */
+    font-weight: bold;
+    page-break-before: always;
+}
+ul {
+    margin-bottom: 50px;
+    /* page-break-inside: avoid; */
+}
+
+/* Text */
+strong { 
+    font-weight: bold; 
+}
+em { 
+    font-style: normal; 
+    text-decoration: underline; 
+}
+
+/* Code block */
+pre { 
+    background: #CCC; 
+    margin: 20px;
+    padding: 20px;
+    page-break-inside: avoid;
+} 
+pre code { 
+    font-family: Anonymous Pro, monospace;
+    font-weight: normal; 
+    word-wrap: break-word;
+}
+
+/* Inline code */
+code {
+    font-family: Anonymous Pro, monospace; 
+    font-weight: bold;
+    word-wrap: avoid;
+}
+
+/* Figure title */
+h6 {
+    font-size: 12pt;
+    page-break-before: avoid;
+    text-align: center; 
+}
+
+/* Footnotes & Table Of Contents */
+ul > li > a {
+    font-size: 10pt;
+}
+ul > li > a:after {
+    content: "";
+}

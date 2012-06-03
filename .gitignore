@@ -2,3 +2,5 @@
 *.pdf
 .DS_Store
 */_site/*
+/*/_html
+/*/_pdf
