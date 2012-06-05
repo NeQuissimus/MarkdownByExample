@@ -4,3 +4,5 @@
 */_site/*
 /*/_html
 /*/_pdf
+*/.sass_cache
+*/public

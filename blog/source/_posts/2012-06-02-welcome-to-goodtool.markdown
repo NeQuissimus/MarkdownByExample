@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Welcome To GoodTool"
+date: 2012-06-02 11:48
+comments: true
+categories: [welcome, goodtool]
+---
+
+Welcome to the support blog for **GoodTool**, the best monitoring tool in the world. This blog will feature help articles as well as tips and tricks.
+
+To celebrate our new blog, we are giving away three licenses for **GoodTool**. Read on to find out how you can win!
+
+<!--more-->
+
+Why should you win a license? Leave us a comment and the best three entires will win!
