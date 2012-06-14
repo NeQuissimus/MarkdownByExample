@@ -1,0 +1,7 @@
+div.presentation {
+    background-color: #111; 
+}
+div.slide {
+    background: -moz-linear-gradient(bottom, #bbb, #fff); 
+    background: -webkit-gradient(linear, left bottom, left top, from(#bbb), to(#fff)); 
+}
