@@ -1,0 +1,3 @@
+# Screenshot
+
+![GUI Screenshot](GoodToolGui.png "Screenshot")
