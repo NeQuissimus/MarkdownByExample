@@ -1,0 +1,12 @@
+{
+    "title": "GoodTool Documentation",
+    "files": [
+        "Description.md", 
+        "Features.md", 
+        "Download.md", 
+        "Installation.md", 
+        "Screenshot.md", 
+        "API.md", 
+        "Contact.md"
+    ]
+}

@@ -1,0 +1,6 @@
+wiki-name: "GoodTool Wiki"
+
+generate-listing: never
+
+server:
+  port: 8080
