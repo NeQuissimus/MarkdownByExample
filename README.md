@@ -10,6 +10,7 @@ The file _build\_examples.sh_ builds all Markdown examples into HTML files.
 
 - **_exercises** Chapter 20: Additional exercises
 - **_extra** Additional examples
+- **_misc** Code snippets from all chapters, Footnotes
 - **blog** Chapter 11: Blogs
 - **documentation** Chapter 14: Documentation with Markdown
 - **html_css** Chapter 9: Markdown with HTML and CSS
