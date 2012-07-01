@@ -1,4 +1,29 @@
-# Chapter 2 #
+
+
+{mainmatter}
+
+
+
+{bump-link-number}
+
+{frontmatter}
+
+
+{bump-link-number}
+
+# Preface
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel nibh lorem. Suspendisse nec nisl at lorem commodo mattis. Fusce accumsan, odio quis luctus pretium, orci dolor iaculis ipsum, vitae ultrices urna lectus vel metus. Maecenas nisl tellus, mattis nec cursus eget, pulvinar rhoncus risus. Ut diam ligula, laoreet vel rutrum vitae, faucibus non purus. Morbi congue interdum faucibus. Vivamus hendrerit scelerisque lorem ut iaculis. Sed dapibus convallis volutpat. Etiam laoreet, erat in venenatis tincidunt, justo tellus vestibulum dolor, in accumsan magna neque at risus. Fusce a ante a ligula lobortis mollis ac non nisl.
+
+
+{bump-link-number}
+
+{mainmatter}
+
+
+{bump-link-number}
+
+# Chapter 2
 
 <<[Code 2.1: HTML frame](code/2_1.html)
 

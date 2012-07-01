@@ -1,8 +1,8 @@
-# Chapter 1 #
+# Chapter 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel nibh lorem. Suspendisse nec nisl at lorem commodo mattis. Fusce accumsan, odio quis luctus pretium, orci dolor iaculis ipsum, vitae ultrices urna lectus vel metus. Maecenas nisl tellus, mattis nec cursus eget, pulvinar rhoncus risus. Ut diam ligula, laoreet vel rutrum vitae, faucibus non purus. Morbi congue interdum faucibus. Vivamus hendrerit scelerisque lorem ut iaculis. Sed dapibus convallis volutpat. Etiam laoreet, erat in venenatis tincidunt, justo tellus vestibulum dolor, in accumsan magna neque at risus. Fusce a ante a ligula lobortis mollis ac non nisl.
 
-![Image 1: Sphere](images/sphere.png)
+![Image 1: Sphere](images/sphere_icon.png)
 
 Donec tincidunt dapibus varius. Donec sollicitudin suscipit felis. Ut consequat justo at felis tincidunt commodo quis at libero. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt pretium lacus, nec rhoncus lacus ullamcorper quis. Suspendisse ac libero odio. Aliquam nunc nisl, iaculis ac suscipit aliquam, vestibulum hendrerit leo. Donec lacinia sodales vehicula. Cras porttitor ipsum sit amet libero vestibulum sed porta arcu vehicula. In hac habitasse platea dictumst. Integer laoreet congue lacus nec fringilla.
 
