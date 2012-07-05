@@ -20,5 +20,6 @@ The file _build\_examples.sh_ builds all Markdown examples into HTML files.
 - **readme_markdownpresenter** Chapter 13: Presentations with alternative frameworks
 - **readme_mdpress** Chapter 13: Presentations with alternative frameworks
 - **readme_preso** Chapter 12: Presentations with ShowOff
+- **scalaslide** Chapter 13: Presentations with alternative frameworks
 - **website** Chapter 10: Websites
 - **wiki** Chapter 17: Wikis
