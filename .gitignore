@@ -11,6 +11,9 @@ readme/*.html
 readme_landslide/*.html
 readme_markdownpresenter/*.html
 readme_mdpress/preso
+scalaslide/project/target
+scalaslide/project/project/target
+scalaslide/target*
 website/_site
 wiki/.html
 wiki/.tmp
