@@ -29,9 +29,13 @@ Markdown Preview: <https://github.com/revolunet/sublimetext-markdown-preview/>
 Markdown: <http://daringfireball.net/projects/markdown/>  
 MarkdownPresenter: <https://github.com/chrishulbert/MarkdownPresenter>  
 Marked: <http://markedapp.com/>  
+MathJax: <http://www.mathjax.org/>  
+MathJax CDN: <http://www.mathjax.org/docs/2.0/start.html#mathjax-cdn>  
 mdpress README: <https://github.com/egonSchiele/mdpress#possible-attributes>  
 mdpress: <https://github.com/egonSchiele/mdpress>  
 Mou.app: <http://mouapp.com/>  
+MultiMarkdown: <http://fletcherpenney.net/multimarkdown/>  
+MultiMarkdown manual: <http://fletcher.github.com/peg-multimarkdown/mmd-manual.pdf>  
 nginx: <http://nginx.org/>  
 Node Package Manager: <http://npmjs.org/>  
 node.js: <http://nodejs.org/>  
