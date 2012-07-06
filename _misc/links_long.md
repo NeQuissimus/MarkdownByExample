@@ -12,6 +12,7 @@ Gist: <https://gist.github.com/>
 GitHub repository: <https://github.com/NeQuissimus/MarkdownByExample/>  
 GitHub scripts repository: <https://github.com/NeQuissimus/Shortcuts/blob/master/nginx/>  
 GitHub: <https://github.com/>  
+GitHub-flavoured Markdown: <http://github.github.com/github-flavored-markdown/>
 iA Writer: <http://www.iawriter.com/>  
 impress.js: <http://bartaz.github.com/impress.js>  
 Jekyll configuration wiki: <https://github.com/mojombo/jekyll/wiki/configuration/>  
