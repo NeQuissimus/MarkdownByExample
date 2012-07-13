@@ -4,7 +4,7 @@ This is the compantion repository for the book [Markdown By Example](http://lean
 
 ## Build script
 
-The file _build\_examples.sh_ builds all Markdown examples into HTML files.
+The file _build\_examples.sh_ builds all Markdown examples into HTML files or their respective output formats.
 
 ## Folders
 
