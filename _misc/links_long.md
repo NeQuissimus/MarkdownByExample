@@ -1,8 +1,11 @@
 # Links #
 
 Apache httpd: <http://httpd.apache.org/>  
+Arch Linux: <http://www.archlinux.org/>  
+Arch Linux Gist: <https://gist.github.com/3139407>  
 Beautiful docs: <http://beautifuldocs.com/>  
 BlueCloth: <http://deveiate.org/projects/BlueCloth/>  
+Debian: <http://www.debian.org/>  
 Dillinger: <http://dillinger.io/>  
 Disqus: <http://disqus.com/>  
 Dropbox: <http://dropbox.com/>  
@@ -58,5 +61,7 @@ shjs documentation: <http://shjs.sourceforge.net/doc/documentation.html>
 shjs: <http://shjs.sourceforge.net/>  
 ShowOff: <https://github.com/schacon/showoff/>  
 Sublime Text 2: <http://www.sublimetext.com/>  
+Ubuntu: <http://www.ubuntu.com/>  
+VMware Fusion: <http://www.vmware.com/products/fusion/>  
 Wordpress: <http://wordpress.org/>  
 XCode (AppStore): <http://itunes.apple.com/app/xcode/id497799835?mt=12>  
