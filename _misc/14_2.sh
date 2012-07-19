@@ -1,1 +1,1 @@
-$ npm install beautiful-docs
+$ pacman -Sy nodejs
