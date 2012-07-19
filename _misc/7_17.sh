@@ -1,1 +1,1 @@
-$ bluecloth README.markdown >> README.html
+$ bluecloth README.markdown > README.html
