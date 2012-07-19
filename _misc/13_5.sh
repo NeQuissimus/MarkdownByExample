@@ -1,1 +1,1 @@
-$ sudo easy_install landslide
+$ git clone https://github.com/chrishulbert/MarkdownPresenter.git

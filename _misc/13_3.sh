@@ -1,1 +1,0 @@
-$ mdpress -r ./preso.md
