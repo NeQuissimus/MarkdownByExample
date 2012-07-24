@@ -1,1 +1,2 @@
-$ bfdocs ./manifest_split.json --base-url="." --server
+$ bfdocs ./manifest_split.json \
+--base-url="." --server

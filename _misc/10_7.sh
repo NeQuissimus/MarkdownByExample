@@ -1,1 +1,1 @@
-$ pygmentize -S default -f html >> highlight.css
+$ pygmentize -S default -f html >highlight.css

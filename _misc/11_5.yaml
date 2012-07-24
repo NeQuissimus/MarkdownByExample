@@ -1,6 +1,7 @@
 recent_posts: 5
 
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html]
+default_asides: [asides/recent_posts.html,
+asides/github.html, asides/twitter.html]
 
 # Github repositories
 github_user: NeQuissimus

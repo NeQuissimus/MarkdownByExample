@@ -1,1 +1,2 @@
-$ git clone https://github.com/chrishulbert/MarkdownPresenter.git
+$ git clone https://github.com/chrishulbert/\
+MarkdownPresenter.git

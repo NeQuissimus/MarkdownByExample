@@ -1,1 +1,2 @@
-$ git clone git://github.com/NeQuissimus/MarkdownByExample.git
+$ git clone git://github.com/NeQuissimus/\
+MarkdownByExample.git
