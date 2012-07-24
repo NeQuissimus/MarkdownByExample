@@ -32,6 +32,8 @@ Markdown Preview: <https://github.com/revolunet/sublimetext-markdown-preview/>
 Markdown: <http://daringfireball.net/projects/markdown/>  
 MarkdownPresenter: <https://github.com/chrishulbert/MarkdownPresenter>  
 Marked: <http://markedapp.com/>  
+Maruku: <http://maruku.rubyforge.org/>  
+Maruku's supported entities: <http://maruku.rubyforge.org/entity_test.html>  
 MathJax: <http://www.mathjax.org/>  
 MathJax CDN: <http://www.mathjax.org/docs/2.0/start.html#mathjax-cdn>  
 mdpress README: <https://github.com/egonSchiele/mdpress#possible-attributes>  
