@@ -1,7 +1,6 @@
 .DS_Store
 .dropbox
 Icon?
-_exercises/*/*.html
 blog/public
 blog/.sass-cache
 book/convert_html

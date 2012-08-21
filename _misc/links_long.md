@@ -1,6 +1,7 @@
 # Links #
 
 Apache httpd: <http://httpd.apache.org/>  
+Apple Developer: <https://developer.apple.com/downloads/index.action>  
 Arch Linux: <http://www.archlinux.org/>  
 Arch Linux Gist: <https://gist.github.com/3139407>  
 Beautiful docs: <http://beautifuldocs.com/>  
@@ -30,6 +31,7 @@ Magick Installer: <https://github.com/maddox/magick-installer/>
 Markdoc: <http://markdoc.org/>  
 Markdown Preview: <https://github.com/revolunet/sublimetext-markdown-preview/>  
 Markdown: <http://daringfireball.net/projects/markdown/>  
+MarkdownPad: <http://markdownpad.com/>  
 MarkdownPresenter: <https://github.com/chrishulbert/MarkdownPresenter>  
 Marked: <http://markedapp.com/>  
 Maruku: <http://maruku.rubyforge.org/>  
