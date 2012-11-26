@@ -45,6 +45,12 @@ a small {
   display:block;
 }
 
+span.price {
+  font-size:10px;
+  color:#111;
+  font-weight: bold;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
